@@ -1,0 +1,44 @@
+.nav_link {
+    font-family: Poppins, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn_nav {
+    margin: 0 11px;
+    padding: 7px 16px;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    width: max-content;
+}
+
+.btn_login {
+    border-radius: 46px;
+    border: 1px solid #FFFFFFB2;
+}
+
+.btn_join {
+    border-radius: 93px;
+    background: #FA5A20;
+    margin-right: 0;
+}
+
+.nav_link:hover,
+.btn_nav:hover {
+    color: #e1ffed;
+}
+
+@media only screen and (max-width: 992px) {
+    .btn_nav {
+        margin: 8px 0;
+    }
+}
+
