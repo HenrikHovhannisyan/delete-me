@@ -3,19 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/img/logo.png';
 import Styles from './navbar.module.css';
+import {memo} from "react";
 
 function NavBar() {
     return (
         <Navbar expand="lg">
             <Container>
                 <Navbar.Brand href="/">
-                    <img
-                        src={Logo}
-                        className="d-inline-block align-top"
-                        alt="Logo"
-                    />
+                    <img src={Logo} className="d-inline-block align-top" alt="Logo"/>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Navbar.Toggle className={"bg-light"} aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto">
                         <Nav.Link className={Styles.nav_link} href="#">How we work</Nav.Link>
@@ -37,4 +34,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default memo(NavBar);
