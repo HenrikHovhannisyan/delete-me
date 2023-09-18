@@ -15,7 +15,7 @@ const Does = () => {
         <section id={Styles.does}>
             <Container fluid>
                 <Row>
-                    <Col lg={{ span: 2, offset: 2 }}>
+                    <Col sm={6} lg={{ span: 2, offset: 2 }} className={"col-6 mt-2 mb-2 "}>
                         <Col className={"text-start mb-4"}>
                             <h2>
                                 How does<br/>
@@ -40,13 +40,13 @@ const Does = () => {
                         </Col>
                         <Image src={Does_1} fluid/>
                     </Col>
-                    <Col lg={3}>
+                    <Col sm={6} lg={3} className={"col-6 mt-2 mb-2 d-flex align-items-lg-start align-items-end"}>
                         <Image src={Does_2} fluid/>
                     </Col>
-                    <Col lg={3} className={"d-flex align-items-end justify-content-center"}>
+                    <Col sm={6} lg={3} className={"col-6 mt-2 mb-2 d-flex align-items-end justify-content-center"}>
                         <Image src={Does_3} fluid/>
                     </Col>
-                    <Col lg={2} className={"d-flex align-items-center justify-content-end"}>
+                    <Col sm={6} lg={2} className={"col-6 mt-2 mb-2 d-flex align-items-center justify-content-end"}>
                         <Image src={Does_4} fluid/>
                     </Col>
                 </Row>
