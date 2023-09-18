@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/header/Header";
 import Does from "./components/does/Does";
 import Info from "./components/info/Info";
+import Customers from "./components/customers/Customers";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Does/>
         <Info/>
+        <Customers/>
     </>
   );
 }
