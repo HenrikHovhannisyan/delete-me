@@ -7,6 +7,7 @@ import Info from "./components/info/Info";
 import Customers from "./components/customers/Customers";
 import PersonalData from "./components/personalData/PersonalData";
 import Data from "./components/data/Data";
+import Faq from "./components/faq/Faq";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Customers/>
             <PersonalData/>
             <Data/>
+            <Faq/>
         </>
     );
 }
