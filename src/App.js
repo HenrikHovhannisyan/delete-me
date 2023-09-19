@@ -5,16 +5,18 @@ import Header from "./components/header/Header";
 import Does from "./components/does/Does";
 import Info from "./components/info/Info";
 import Customers from "./components/customers/Customers";
+import PersonalData from "./components/personalData/PersonalData";
 
 function App() {
-  return (
-    <>
-        <Header/>
-        <Does/>
-        <Info/>
-        <Customers/>
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Does/>
+            <Info/>
+            <Customers/>
+            <PersonalData/>
+        </>
+    );
 }
 
 export default App;
