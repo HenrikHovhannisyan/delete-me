@@ -40,16 +40,60 @@
     color: #e1ffed;
 }
 
+.personalData_info {
+    position: relative;
+    top: -100px;
+    background-color: #020822CC;
+    border-radius: 21px;
+    padding: 48px 25px;
+}
+
+.personalData_info_num {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 92px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.personalData_info_text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1550px) {
+    .personalData_info {
+        top: 50px;
+    }
+
+    .personalData_info_num {
+        font-size: 48px;
+    }
+
+    .personalData_info_text {
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+
     #personalData {
         margin: 80px auto;
     }
 
-    p {
+    .personalData_text {
         font-size: 13px;
     }
 
-    h2 {
-        font-size: 20px ;
+    .personalData_title {
+        font-size: 20px;
     }
+
 }

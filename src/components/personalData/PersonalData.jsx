@@ -28,6 +28,43 @@ const PersonalData = () => {
                         </Col>
                     </Col>
                 </Row>
+                <Col md={7} className={`m-auto ${Styles.personalData_info}`}>
+                    <Row>
+                        <Col lg={4}>
+                            <p className={Styles.personalData_info_num}>
+                                <span>100</span>
+                                M+
+                            </p>
+                            <p className={Styles.personalData_info_text}>
+                                Lorem Ipsum is simply dummy text
+                                typesetting industry. Lorem Ipsum
+                                standard dummy text ever since
+                            </p>
+                        </Col>
+                        <Col lg={4}>
+                            <p className={Styles.personalData_info_num}>
+                                <span>54</span>
+                                +
+                            </p>
+                            <p className={Styles.personalData_info_text}>
+                                Lorem Ipsum is simply dummy text
+                                typesetting industry. Lorem Ipsum
+                                standard
+                            </p>
+                        </Col>
+                        <Col lg={4}>
+                            <p className={Styles.personalData_info_num}>
+                                <span>2.389</span>
+                                +
+                            </p>
+                            <p className={Styles.personalData_info_text}>
+                                Lorem Ipsum is simply dummy text of the
+                                typesetting industry. Lorem Ipsum has been
+                                standard dummy text ever since the 1500s.
+                            </p>
+                        </Col>
+                    </Row>
+                </Col>
             </Container>
         </section>
     )
