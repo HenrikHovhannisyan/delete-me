@@ -7,4 +7,12 @@
     #does {
         margin: 80px auto;
     }
+
+    p {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 20px ;
+    }
 }
