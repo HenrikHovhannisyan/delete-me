@@ -33,3 +33,9 @@
     list-style: none;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+    #footer {
+        padding: 55px 0;
+    }
+}

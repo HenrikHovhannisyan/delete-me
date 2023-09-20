@@ -1,0 +1,48 @@
+#banner {
+    background-image: url("../../assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.banner_title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+    padding-top: 140px;
+}
+
+.banner_text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    padding-bottom: 200px;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .banner_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner_title {
+        padding-top: 80px;
+    }
+
+    .banner_text {
+        padding-bottom: 80px;
+    }
+}
