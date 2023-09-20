@@ -1,0 +1,35 @@
+#footer {
+    padding: 145px 0 160px;
+    background-image: url("./../../assets/img/footer_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.footer_company {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.footer_text {
+    margin-top: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+}
+
+.footer_list_item {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0;
+    list-style: none;
+    color: #ffffff;
+}

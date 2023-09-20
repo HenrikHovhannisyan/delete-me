@@ -8,6 +8,7 @@ import Customers from "./components/customers/Customers";
 import PersonalData from "./components/personalData/PersonalData";
 import Data from "./components/data/Data";
 import Faq from "./components/faq/Faq";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <PersonalData/>
             <Data/>
             <Faq/>
+            <Footer/>
         </>
     );
 }
