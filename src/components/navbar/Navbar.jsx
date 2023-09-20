@@ -2,8 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/img/logo.png';
-import Styles from './navbar.module.css';
 import {memo} from "react";
+import {NavLink} from "react-router-dom";
+import Styles from './navbar.module.css';
 
 function NavBar() {
     return (
@@ -15,13 +16,13 @@ function NavBar() {
                 <Navbar.Toggle className={"bg-light"} aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto">
-                        <Nav.Link className={Styles.nav_link} href="#">How we work</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">Pricing</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">DIY Opt-Out Guides</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">Business</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">Blog</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">About us</Nav.Link>
-                        <Nav.Link className={Styles.nav_link} href="#">Support</Nav.Link>
+                        <NavLink to={'/how-we-work'} className={`nav-link ${Styles.nav_link}`}>How we work</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Pricing</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>DIY Opt-Out Guides</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Business</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Blog</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>About us</NavLink>
+                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Support</NavLink>
                     </Nav>
 
                     <Nav>
