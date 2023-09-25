@@ -2,6 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import App from "../App";
 import HowWeWork from "../pages/howWeWork/HowWeWork";
+import Pricing from "../pages/pricing/Pricing";
 
 const RouteList = () => {
     return (
@@ -9,6 +10,7 @@ const RouteList = () => {
             <Routes>
                 <Route path={'/'} element={<App/>}/>
                 <Route path={'/how-we-work'} element={<HowWeWork/>}/>
+                <Route path={'/pricing'} element={<Pricing/>}/>
             </Routes>
         </BrowserRouter>
     )

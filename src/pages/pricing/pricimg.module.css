@@ -1,0 +1,28 @@
+.banner_text > p {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(250, 90, 32, 0.7), rgba(255, 255, 255, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.d_none {
+    display: none;
+}
+
+.order {
+    order: 2;
+    margin: 15px auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .banner_text > p {
+        font-size: 24px;
+        line-height: 20px;
+    }
+}

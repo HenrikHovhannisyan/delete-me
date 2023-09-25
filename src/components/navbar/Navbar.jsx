@@ -17,7 +17,7 @@ function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto">
                         <NavLink to={'/how-we-work'} className={`nav-link ${Styles.nav_link}`}>How we work</NavLink>
-                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Pricing</NavLink>
+                        <NavLink to={'/pricing'} className={`nav-link ${Styles.nav_link}`}>Pricing</NavLink>
                         <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>DIY Opt-Out Guides</NavLink>
                         <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Business</NavLink>
                         <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Blog</NavLink>

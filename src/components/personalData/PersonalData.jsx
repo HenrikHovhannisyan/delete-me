@@ -7,12 +7,12 @@ import Image from "react-bootstrap/Image";
 import PersonalDataImage from "../../assets/img/personalData_bg.png";
 import {Link} from "react-router-dom";
 
-const PersonalData = () => {
+const PersonalData = ({d_none, order}) => {
     return (
         <section id={Styles.personalData}>
             <Container fluid>
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={6} className={order}>
                         <Image src={PersonalDataImage} fluid/>
                     </Col>
                     <Col lg={6} className={'d-flex align-items-center justify-content-start'}>
@@ -28,7 +28,7 @@ const PersonalData = () => {
                         </Col>
                     </Col>
                 </Row>
-                <Col md={7} className={`m-auto ${Styles.personalData_info}`}>
+                <Col md={7} className={`m-auto ${Styles.personalData_info} ${d_none}`}>
                     <Row>
                         <Col lg={4}>
                             <p className={Styles.personalData_info_num}>
