@@ -10,7 +10,7 @@ const RouteList = () => {
             <Routes>
                 <Route path={'/'} element={<App/>}/>
                 <Route path={'/how-we-work'} element={<HowWeWork/>}/>
-                <Route path={'/pricing'} element={<Pricing/>}/>
+                <Route path={'/pricingList'} element={<Pricing/>}/>
             </Routes>
         </BrowserRouter>
     )
