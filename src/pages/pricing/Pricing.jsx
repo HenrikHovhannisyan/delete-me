@@ -7,6 +7,7 @@ import Footer from "../../components/footer/Footer";
 import Container from "react-bootstrap/Container";
 import Box from "../../components/box/Box";
 import PricingList from "../../components/pricingList/PricingList";
+import ProtectionPlans from "../../components/protectionPlans/ProtectionPlans";
 
 const Pricing = () => {
     const component = () => <PricingList/>;
@@ -15,6 +16,7 @@ const Pricing = () => {
             <PageHeader _class={Styles.banner_text} title={'SAVE MORE WITH OUR BEST VALUE AND'}
                         text={'MOST POPULAR LOGO NAME PLANS'}/>
             <Box content={component}/>
+            <ProtectionPlans/>
             <Customers/>
             <Container>
                 <PersonalData d_none={Styles.d_none} order={Styles.order}/>
