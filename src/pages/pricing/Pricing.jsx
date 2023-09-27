@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import Box from "../../components/box/Box";
 import PricingList from "../../components/pricingList/PricingList";
 import ProtectionPlans from "../../components/protectionPlans/ProtectionPlans";
+import WhyChoose from "../../components/whyChoose/WhyChoose";
 
 const Pricing = () => {
     const component = () => <PricingList/>;
@@ -17,6 +18,7 @@ const Pricing = () => {
                         text={'MOST POPULAR LOGO NAME PLANS'}/>
             <Box content={component}/>
             <ProtectionPlans/>
+            <WhyChoose/>
             <Customers/>
             <Container>
                 <PersonalData d_none={Styles.d_none} order={Styles.order}/>
