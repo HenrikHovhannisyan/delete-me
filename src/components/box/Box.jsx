@@ -9,7 +9,7 @@ const Box = ({content}) => {
         <section id={Styles.box}>
             <Container>
                 <Row>
-                    <Col className={"m-auto"}>
+                    <Col>
                         {content()}
                     </Col>
                 </Row>
