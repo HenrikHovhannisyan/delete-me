@@ -4,6 +4,7 @@ import Box from "../../components/box/Box";
 import Privacy from "./Privacy";
 import Footer from "../../components/footer/Footer";
 import Info from "./Info";
+import CompanyMilestones from "./CompanyMilestones";
 
 const AboutUs = () => {
     const component = () => <Privacy/>;
@@ -12,6 +13,7 @@ const AboutUs = () => {
             <PageHeader title={'About us'}/>
             <Box content={component}/>
             <Info/>
+            <CompanyMilestones/>
             <Footer/>
         </>
     );

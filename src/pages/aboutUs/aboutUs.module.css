@@ -59,8 +59,49 @@
     margin-bottom: 22px;
 }
 
+#companyMilestones {
+    margin-bottom: 120px;
+}
+
+#companyMilestones h2 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #19288A;
+    margin-bottom: 40px;
+}
+
+#companyMilestones p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0F2358CC;
+    margin-top: 60px;
+}
+
 @media screen and (max-width: 992px) {
     .about_banner_container {
         padding: 20px 30px;
+    }
+
+    #info,
+    #companyMilestones {
+        margin-bottom: 55px;
+    }
+
+    #companyMilestones h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    #companyMilestones p {
+        font-size: 12px;
+        margin-top: 30px;
     }
 }
