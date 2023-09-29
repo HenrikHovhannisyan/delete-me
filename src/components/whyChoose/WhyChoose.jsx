@@ -3,7 +3,7 @@ import Styles from "./whyChoose.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Item from "./Item";
-import {WhyWhooseData} from "../../config/why-whoose-data";
+import {WhyWhooseData} from "../../config/data";
 
 const WhyChoose = () => {
 

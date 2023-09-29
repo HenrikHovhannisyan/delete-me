@@ -2,7 +2,7 @@ import React, {memo} from "react";
 import Styles from "./protectionPlans.module.css";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
-import {TABLE_INFO} from "../../config/table-info";
+import {TABLE_INFO} from "../../config/data";
 import TableTr from "./TableTr";
 import Container from "react-bootstrap/Container";
 
