@@ -85,6 +85,53 @@
     margin-top: 60px;
 }
 
+#team {
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.team_title {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0em;
+    color: #19288A;
+    margin-bottom: 25px;
+}
+
+.team_name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #19288A;
+    margin-top: 15px;
+}
+
+.team_position {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.team_view {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #F08D0B;
+}
+
+.team_view:hover {
+    color: #f0800b;
+}
+
 @media screen and (max-width: 992px) {
     .about_banner_container {
         padding: 20px 30px;
@@ -103,5 +150,9 @@
     #companyMilestones p {
         font-size: 12px;
         margin-top: 30px;
+    }
+
+    #team {
+        margin-bottom: 60px;
     }
 }
