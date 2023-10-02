@@ -21,4 +21,5 @@ const AboutUs = () => {
     );
 };
 
+
 export default memo(AboutUs)
