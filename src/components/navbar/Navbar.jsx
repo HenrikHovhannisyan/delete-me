@@ -22,7 +22,7 @@ function NavBar() {
                         <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Business</NavLink>
                         <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Blog</NavLink>
                         <NavLink to={'/about-us'} className={`nav-link ${Styles.nav_link}`}>About us</NavLink>
-                        <NavLink to={'/5'} className={`nav-link ${Styles.nav_link}`}>Support</NavLink>
+                        <NavLink to={'/support'} className={`nav-link ${Styles.nav_link}`}>Support</NavLink>
                     </Nav>
 
                     <Nav>

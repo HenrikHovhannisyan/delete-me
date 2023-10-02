@@ -1,0 +1,23 @@
+.box {
+    top: -45px!important;
+}
+.search_container {
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px 0 #00000014;
+    border-radius: 15px;
+}
+
+.search_input {
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+    background-color: #F7F7F7;
+}
+
+.search_input::placeholder {
+    background-image: url('../../assets/img/icons/search.png');
+    line-height: 40px;
+    padding-left: 30px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}

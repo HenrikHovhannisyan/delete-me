@@ -1,9 +1,9 @@
 import React, {memo} from "react";
 import Styles from "./box.module.css";
 
-const Box = ({content}) => {
+const Box = ({content, class_name}) => {
     return (
-        <section id={Styles.box}>
+        <section className={class_name} id={Styles.box}>
             {content()}
         </section>
     );
