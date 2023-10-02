@@ -12,12 +12,12 @@ const Item = ({question, answer}) => {
     return question && answer ? (
         <Row className={'m-2'}>
             <Col className={Styles.faq_container}>
-                <p className={Styles.faq_question} onClick={() => showAnswer()}>Question What is a data broker?</p>
+                <p className={Styles.faq_question} onClick={() => showAnswer()}>{question}</p>
                 {
                     isShow ? (
                         <>
                             <hr/>
-                            <p className={Styles.faq_answer}>Answer What is a data broker?</p>
+                            <p className={Styles.faq_answer}>{answer}</p>
                         </>
                     ) : ('')
                 }

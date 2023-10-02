@@ -19,26 +19,13 @@ const Privacy = () => {
                     typesetting, remaining essentially unchanged.
                 </p>
                 <Row>
-                    <Col lg={3}>
-                        {Privacy_Items[0].map((e) => {
-                            return <Item key={e.id} img={e.img} text={e.text}/>
-                        })}
-                    </Col>
-                    <Col lg={3}>
-                        {Privacy_Items[1].map((e) => {
-                            return <Item key={e.id} img={e.img} text={e.text}/>
-                        })}
-                    </Col>
-                    <Col lg={3}>
-                        {Privacy_Items[2].map((e) => {
-                            return <Item key={e.id} img={e.img} text={e.text}/>
-                        })}
-                    </Col>
-                    <Col lg={3}>
-                        {Privacy_Items[3].map((e) => {
-                            return <Item key={e.id} img={e.img} text={e.text}/>
-                        })}
-                    </Col>
+                    {Privacy_Items.map((array, index) => (
+                        <Col lg={3} key={index}>
+                            {array.map((e) => (
+                                <Item key={e.id} img={e.img} text={e.text} />
+                            ))}
+                        </Col>
+                    ))}
                 </Row>
             </Col>
         </Container>
