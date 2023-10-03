@@ -165,3 +165,41 @@ export const Privacy_Items = [
         },
     ]
 ];
+
+export const RecentActivityData = [
+    {
+        id: 1,
+        title: 'General Service FAQs',
+        question: 'Lorem Ipsum is simply dummy text of the printing?',
+        days: 21,
+        comment: 0,
+    },
+    {
+        id: 2,
+        title: 'General Service FAQs',
+        question: 'Lorem Ipsum is simply dummy text of the printing?',
+        days: 21,
+        comment: 0,
+    },
+    {
+        id: 3,
+        title: 'General Service FAQs',
+        question: 'Lorem Ipsum is simply dummy text of the printing?',
+        days: 21,
+        comment: 0,
+    },
+    {
+        id: 4,
+        title: 'General Service FAQs',
+        question: 'Lorem Ipsum is simply dummy text of the printing?',
+        days: 21,
+        comment: 0,
+    },
+    {
+        id: 5,
+        title: 'General Service FAQs',
+        question: 'Lorem Ipsum is simply dummy text of the printing?',
+        days: 21,
+        comment: 0,
+    },
+];

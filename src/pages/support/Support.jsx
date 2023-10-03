@@ -6,6 +6,7 @@ import Search from "./Search";
 import Box from "../../components/box/Box";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import PromotedArticles from "./PromotedArticles";
 
 const Support = () => {
     const component = () => <Search/>;
@@ -16,7 +17,9 @@ const Support = () => {
                 <Col lg={9} className={'m-auto'}>
                     <Box class_name={Styles.box} content={component}/>
                 </Col>
+                <PromotedArticles/>
             </Container>
+
             <Footer/>
         </>
     );

@@ -1,6 +1,7 @@
 .box {
-    top: -45px!important;
+    top: -45px !important;
 }
+
 .search_container {
     padding: 25px;
     background-color: #ffffff;
@@ -20,4 +21,83 @@
     padding-left: 30px;
     background-size: 20px 20px;
     background-repeat: no-repeat;
+}
+
+.promotedArticles {
+    margin-top: 95px;
+    margin-bottom: 120px;
+}
+
+.promotedArticles_container {
+    padding: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #00000014;
+    border-radius: 15px;
+}
+
+.promotedArticles_col {
+    padding-bottom: 60px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.promotedArticles_col_1 {
+    margin-top: 30px;
+}
+
+.promotedArticles_col_1 > h2 {
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #060607;
+}
+
+.promotedArticles_title {
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #060607;
+}
+
+.promotedArticles_link {
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #19288A;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.recentActivityItem_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 22px;
+}
+
+.promotedArticles_title_link {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #19288A;
+}
+
+@media screen and (max-width: 768px) {
+    .promotedArticles_link {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .recentActivityItem_container {
+        text-align: left;
+    }
 }
